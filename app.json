@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Gyroscope 3D Viewer",
+    "slug": "Gyroscope3DViewer",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.antonina.modelviewer"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js"
+    },
+    "sdkVersion": "37.0.0",
+    "description": "",
+    "githubUrl": "https://github.com/antoninastefanowska/RNGyroscope3DViewer.git"
+  }
+}
